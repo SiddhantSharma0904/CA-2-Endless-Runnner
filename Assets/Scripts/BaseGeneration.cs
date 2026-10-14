@@ -17,7 +17,7 @@ public class BaseGeneration : MonoBehaviour
 
             GameManager.instance.basePool.Remove(currentbase);
             currentbase.transform.position = GameManager.instance.nextBasePosition.position;
-            currentbase.transform.rotation = Quaternion.Euler(0, 90, 0);
+            currentbase.transform.rotation = Quaternion.Euler(0, 0, 0);
             GameManager.instance.nextBasePosition = currentbase.GetComponent<BaseManager>().nextBasePosition;
             currentbase.SetActive(true);
 
@@ -25,7 +25,7 @@ public class BaseGeneration : MonoBehaviour
             GameManager.instance.baseList.Add(currentbase);
             currentbase.name = "Base " + (GameManager.instance.baseList.Count - 1);
 
-            if (GameManager.instance.baseList.Count >= 7)
+            if (GameManager.instance.baseList.Count >= 8)
             {
                 GameObject baseToPool = GameManager.instance.baseList[GameManager.instance.baseToRemoveCount];
                 GameManager.instance.baseList[GameManager.instance.baseToRemoveCount] = null;
