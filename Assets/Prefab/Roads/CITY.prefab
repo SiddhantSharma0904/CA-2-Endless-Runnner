@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3742168605856997128}
   - component: {fileID: 1444016988004903874}
   - component: {fileID: 7556222592576116110}
+  - component: {fileID: 5810931814006665224}
+  - component: {fileID: 1275969826594566439}
   m_Layer: 0
   m_Name: Car_13
   m_TagString: Untagged
@@ -123,6 +125,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1459823808202505154, guid: 1acf2dd728ccb024994995dba45668db, type: 3}
+--- !u!65 &5810931814006665224
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083909269830945303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.31092, y: 1.2181864, z: 4.3317375}
+  m_Center: {x: 0, y: 0.754063, z: 0.1425153}
+--- !u!114 &1275969826594566439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083909269830945303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce61c0cfa16e8eb4c93edfbbe4985072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacles
 --- !u!1 &1205253287708805322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2151,8 @@ GameObject:
   - component: {fileID: 5152918171665363013}
   - component: {fileID: 6946275275710923919}
   - component: {fileID: 4331785020675559762}
+  - component: {fileID: 7983123596360754940}
+  - component: {fileID: 2554932325010329205}
   m_Layer: 0
   m_Name: Car_06
   m_TagString: Untagged
@@ -2226,3 +2263,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9001293460107514281, guid: a33ce5f236905db4e975e1283aafc172, type: 3}
+--- !u!65 &7983123596360754940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892037503246902618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.5312207, y: 1.496758, z: 3.6914406}
+  m_Center: {x: -0.00012207031, y: 0.98273885, z: 0.023587644}
+--- !u!114 &2554932325010329205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892037503246902618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce61c0cfa16e8eb4c93edfbbe4985072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Obstacles

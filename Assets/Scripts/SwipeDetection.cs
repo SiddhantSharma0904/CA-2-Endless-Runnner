@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System;
 
 public class SwipeDetection : MonoBehaviour
 {
@@ -64,7 +63,7 @@ public class SwipeDetection : MonoBehaviour
     void OnSwipeUp()
     {
         Debug.Log("Up Swipe Detected");
-        forward.Jump();
+        //forward.Jump();
     }
     void OnSwipeDown()
     {
@@ -72,4 +71,3 @@ public class SwipeDetection : MonoBehaviour
 
     }
 }
-
