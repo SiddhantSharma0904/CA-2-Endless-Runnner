@@ -271,6 +271,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SwipeDetection
   swipeThreshold: 50
   forward: {fileID: 8050843307323837226}
+--- !u!1 &232782109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
+  m_PrefabInstance: {fileID: 1529142702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,8 +427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 8050843307323837225}
-  smoothSpeed: 2
-  offsetZ: 2
+  smoothSpeed: 3
+  offsetZ: 1
   useSmoothing: 1
 --- !u!1 &410087039
 GameObject:
@@ -631,27 +636,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   baseList:
-  - {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
-  - {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
-  - {fileID: 6260774274674170370, guid: c7a0b4a27c040604fa55693902fb51aa, type: 3}
-  - {fileID: 6260774274674170370, guid: c7a0b4a27c040604fa55693902fb51aa, type: 3}
-  - {fileID: 6260774274674170370, guid: f0622892ce9fef84d81fd20a7cbfefd6, type: 3}
-  - {fileID: 6260774274674170370, guid: f0622892ce9fef84d81fd20a7cbfefd6, type: 3}
-  - {fileID: 6260774274674170370, guid: f82afb102946ef04090388d528e5d347, type: 3}
-  - {fileID: 6260774274674170370, guid: f82afb102946ef04090388d528e5d347, type: 3}
-  nextBasePosition: {fileID: 4880045132894442198}
+  - {fileID: 1637970804}
+  - {fileID: 232782109}
+  nextBasePosition: {fileID: 1447783533}
   basePrefab: {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
   baseParent: {fileID: 1766821135}
   basePrefabList:
   - {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
-  - {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
-  - {fileID: 6260774274674170370, guid: c7a0b4a27c040604fa55693902fb51aa, type: 3}
   - {fileID: 6260774274674170370, guid: c7a0b4a27c040604fa55693902fb51aa, type: 3}
   - {fileID: 6260774274674170370, guid: f0622892ce9fef84d81fd20a7cbfefd6, type: 3}
-  - {fileID: 6260774274674170370, guid: f0622892ce9fef84d81fd20a7cbfefd6, type: 3}
-  - {fileID: 6260774274674170370, guid: f82afb102946ef04090388d528e5d347, type: 3}
   - {fileID: 6260774274674170370, guid: f82afb102946ef04090388d528e5d347, type: 3}
   baseToRemoveCount: 0
+  CollectablesCount: 0
   basePoolParent: {fileID: 1288080420}
   basePool: []
 --- !u!4 &842130863
@@ -776,6 +772,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.5312207, y: 1.496758, z: 3.6914406}
   m_Center: {x: -0.00012207031, y: 0.98273885, z: 0.023587644}
+--- !u!4 &1447783533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2048185132878592224, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
+  m_PrefabInstance: {fileID: 1529142702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1450476685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1083,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89f60994c872954fb2dd3f0fb3faa19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseGeneration
+--- !u!1 &1637970804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6260774274674170370, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
+  m_PrefabInstance: {fileID: 4880045132894442197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1766821134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1705961751583440059, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3144353819358631883, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1300,11 +1306,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1281222154}
   m_SourcePrefab: {fileID: 100100000, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
---- !u!4 &4880045132894442198 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2048185132878592224, guid: 82a452bcbc30a434ab5aa79f576782e2, type: 3}
-  m_PrefabInstance: {fileID: 4880045132894442197}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6432817276781829613
 PrefabInstance:
   m_ObjectHideFlags: 0

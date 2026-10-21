@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Transform baseParent;
     public List<GameObject> basePrefabList = new List<GameObject>();
     public int baseToRemoveCount = 0;
+    public int CollectablesCount = 0;
 
     public Transform basePoolParent;
     public List<GameObject> basePool = new List<GameObject>();
