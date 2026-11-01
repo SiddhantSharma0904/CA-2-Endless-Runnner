@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
             {
                 GameObject newbase = Instantiate(baseprefab, new Vector3(0, -1000, 0), Quaternion.identity, basePoolParent);
                 newbase.gameObject.SetActive(false);
-                //newbase.GetComponent<BaseManager>().IsPooled = true;
+                newbase.GetComponent<BaseManager>().IsPooled = true;
                 basePool.Add(newbase);
             }
         }
