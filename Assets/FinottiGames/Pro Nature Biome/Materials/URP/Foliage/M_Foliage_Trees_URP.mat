@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Foliage_Trees_URP
-  m_Shader: {fileID: -6465566751694194690, guid: 1085dc5560751b14aa9d181c78756379, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3d84434c2dbc5e44f8b53ec7ce9adc1d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,6 +41,26 @@ Material:
         m_Texture: {fileID: 2800000, guid: cfb5eddedad23c443810f65c1df5f1e0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,26 +75,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BumpScale: 1
     - _ENABLE_WIND: 1
     - _Flutter_Speed: 0.005
     - _Flutter_Strength: 0.1
     - _Gradient_Position: 0.064
     - _Gradient_Smoothness: 0.14
+    - _Metallic: 0
     - _Noise_Noise_Power: 0.75
     - _Noise_Power: 0
     - _Noise_Scale: 0
     - _Noise_Visible: 0.8
+    - _OcclusionStrength: 1
     - _Position_Value: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rotate_UV: 0
+    - _Smoothness: 0.5
     - _Turbolance_Scale: 20
     - _USE_TEXTURE: 1
+    - _UseMetallicMap: 0
+    - _UseNormalMap: 0
     - _Wind_Speed: 1
     - _Wind_Strength: 0.001
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Color: {r: 0.246974, g: 0.40994826, b: 0.4716981, a: 1}
     - _DownColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _In_Trunk_Color: {r: 0.5566037, g: 0.43845677, b: 0.43845677, a: 1}
     - _Noise_Color: {r: 1, g: 1, b: 1, a: 1}
     - _UpperColor: {r: 1, g: 1, b: 1, a: 1}
