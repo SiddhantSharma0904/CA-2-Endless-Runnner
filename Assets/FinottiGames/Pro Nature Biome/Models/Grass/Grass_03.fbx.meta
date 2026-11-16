@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 93d37de548be51f43bbda9a49967c211
+AssetOrigin:
+  serializedVersion: 1
+  productId: 374760
+  packageName: 'Pro Nature Biome: Starter Pack'
+  packageVersion: 1.1
+  assetPath: Assets/FinottiGames/Pro Nature Biome/Models/Grass/Grass_03.fbx
+  uploadId: 936820
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 24300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -13,7 +20,8 @@ ModelImporter:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -113,10 +121,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 374760
-  packageName: 'Pro Nature Biome: Starter Pack'
-  packageVersion: 1.1
-  assetPath: Assets/FinottiGames/Pro Nature Biome/Models/Grass/Grass_03.fbx
-  uploadId: 936820
